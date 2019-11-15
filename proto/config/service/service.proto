@@ -21,6 +21,7 @@ import "validate/validate.proto";
 
 import "common/address.proto";
 
+option go_package = "github.com/samaritan-proxy/samaritan-api/go/config/service";
 
 option (gogoproto.enum_stringer_all) = false;
 option (gogoproto.goproto_enum_stringer_all) = true;

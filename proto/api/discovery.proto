@@ -23,6 +23,7 @@ import "common/instance.proto";
 import "config/service/service.proto";
 import "config/service/config.proto";
 
+option go_package = "github.com/samaritan-proxy/samaritan-api/go/api";
 
 option (gogoproto.enum_stringer_all) = false;
 option (gogoproto.goproto_enum_stringer_all) = true;

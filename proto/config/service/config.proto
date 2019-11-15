@@ -26,6 +26,7 @@ import "config/hc/hc.proto";
 import "config/protocol/protocol.proto";
 
 // FIXME: remove hard code
+option go_package = "github.com/samaritan-proxy/samaritan-api/go/config/service";
 
 option (gogoproto.enum_stringer_all) = false;
 option (gogoproto.goproto_enum_stringer_all) = true;

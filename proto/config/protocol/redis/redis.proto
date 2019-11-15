@@ -19,6 +19,7 @@ package redis;
 import "gogoproto/gogo.proto";
 import "validate/validate.proto";
 
+option go_package = "github.com/samaritan-proxy/samaritan-api/go/config/protocol/redis";
 
 option (gogoproto.enum_stringer_all) = false;
 option (gogoproto.goproto_enum_stringer_all) = true;

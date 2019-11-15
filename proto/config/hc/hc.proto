@@ -21,6 +21,7 @@ import "google/protobuf/duration.proto";
 import "gogoproto/gogo.proto";
 import "validate/validate.proto";
 
+option go_package = "github.com/samaritan-proxy/samaritan-api/go/config/hc";
 
 option (gogoproto.enum_stringer_all) = false;
 option (gogoproto.goproto_enum_stringer_all) = true;
